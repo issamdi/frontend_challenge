@@ -100,92 +100,92 @@ export default function HeroSection() {
           </div>
         </div>
 
-        {/* Right — phone mockup (desktop only) */}
-        <div className="relative mx-auto hidden h-[760px] w-full max-w-[608px] lg:block lg:pl-8 lg:pt-2">
-          <div className="mx-auto h-[704px] w-[392px] overflow-hidden rounded-[42px] border-[7px] border-brand-navy bg-[#F9FAFB] shadow-strong">
+        {/* Right — phone mockup */}
+        <div className="relative mx-auto h-[480px] w-full max-w-[392px] lg:h-[760px] lg:max-w-[608px] lg:pl-8 lg:pt-2">
+          <div className="mx-auto h-[424px] w-[235px] overflow-hidden rounded-[24px] border-[4px] border-brand-navy bg-[#F9FAFB] shadow-strong sm:h-[560px] sm:w-[312px] sm:rounded-[32px] sm:border-[5px] lg:h-[704px] lg:w-[392px] lg:rounded-[42px] lg:border-[7px]">
             <div className="relative flex h-full flex-col bg-[#F9FAFB]">
-              <div className="h-[128px] bg-gradient-to-r from-brand-green to-brand-green-dark px-5 pt-5 text-white">
-                <p className="text-[10px] font-semibold uppercase tracking-[0.08em] text-[#C8F2D3]">
+              <div className="h-[72px] bg-gradient-to-r from-brand-green to-brand-green-dark px-3 pt-3 text-white sm:h-[96px] sm:px-4 sm:pt-4 lg:h-[128px] lg:px-5 lg:pt-5">
+                <p className="text-[8px] font-semibold uppercase tracking-[0.08em] text-[#C8F2D3] sm:text-[9px] lg:text-[10px]">
                   Album digital 2025
                 </p>
-                <h3 className="mt-2 text-[17px] font-semibold leading-none text-white">
+                <h3 className="mt-1 text-[13px] font-semibold leading-none text-white sm:mt-2 sm:text-[15px] lg:mt-2 lg:text-[17px]">
                   Ma Collection
                 </h3>
-                <div className="mt-4 flex gap-4">
+                <div className="mt-2 flex gap-2 sm:gap-3 lg:mt-4 lg:gap-4">
                   <div>
-                    <p className="text-[17px] font-semibold leading-none text-white">
+                    <p className="text-[12px] font-semibold leading-none text-white sm:text-[14px] lg:text-[17px]">
                       127
                     </p>
-                    <p className="mt-1 text-[11px] leading-none text-[#D1F5DD]">
+                    <p className="mt-0.5 text-[8px] leading-none text-[#D1F5DD] sm:mt-1 sm:text-[9px] lg:text-[11px]">
                       Cartes
                     </p>
                   </div>
                   <div>
-                    <p className="text-[17px] font-semibold leading-none text-white">
+                    <p className="text-[12px] font-semibold leading-none text-white sm:text-[14px] lg:text-[17px]">
                       76%
                     </p>
-                    <p className="mt-1 text-[11px] leading-none text-[#D1F5DD]">
+                    <p className="mt-0.5 text-[8px] leading-none text-[#D1F5DD] sm:mt-1 sm:text-[9px] lg:text-[11px]">
                       Complet
                     </p>
                   </div>
                   <div>
-                    <p className="text-[17px] font-semibold leading-none text-white">
+                    <p className="text-[12px] font-semibold leading-none text-white sm:text-[14px] lg:text-[17px]">
                       #12
                     </p>
-                    <p className="mt-1 text-[11px] leading-none text-[#D1F5DD]">
+                    <p className="mt-0.5 text-[8px] leading-none text-[#D1F5DD] sm:mt-1 sm:text-[9px] lg:text-[11px]">
                       Rang
                     </p>
                   </div>
                 </div>
               </div>
 
-              <div className="grid grid-cols-3 gap-2.5 px-4 pt-3">
+              <div className="grid grid-cols-3 gap-2 px-2 pt-2 sm:gap-2.5 sm:px-3 sm:pt-3 lg:gap-2.5 lg:px-4 lg:pt-3">
                 {phoneGridSlots.map((_, i) => (
                   <div
                     key={i}
-                    className="h-[132px] rounded-[12px] bg-slate-200/85"
+                    className="h-[72px] rounded-[8px] bg-slate-200/85 sm:h-[96px] sm:rounded-[10px] lg:h-[132px] lg:rounded-[12px]"
                   />
                 ))}
               </div>
             </div>
           </div>
 
-          <div className="absolute bottom-[48px] left-[52.6%] z-10 grid h-[56px] w-[394px] -translate-x-1/2 grid-cols-4 items-center border-t border-slate-200 bg-white px-4">
+          <div className="absolute bottom-[28px] left-[52.6%] z-10 grid h-[40px] w-[235px] -translate-x-1/2 grid-cols-4 items-center border-t border-slate-200 bg-white px-2 sm:bottom-[38px] sm:h-[48px] sm:w-[312px] sm:px-3 lg:bottom-[48px] lg:h-[56px] lg:w-[394px] lg:px-4">
             {bottomTabs.map((tab) => (
               <div
                 key={tab}
                 className="flex flex-col items-center gap-1.5 text-[#64748B]"
               >
-                <span className="h-5 w-5 rounded-[6px] bg-[#B8C4D3]" />
-                <span className="text-[10px] leading-none">{tab}</span>
+                <span className="h-4 w-4 rounded-[4px] bg-[#B8C4D3] sm:h-4 sm:w-4 lg:h-5 lg:w-5" />
+                <span className="text-[7px] leading-none sm:text-[8px] lg:text-[10px]">{tab}</span>
               </div>
             ))}
           </div>
 
           {/* Floating stat cards */}
-          <div className="absolute right-[25px] top-[-8px] flex h-[56px] w-[184px] items-center gap-2.5 rounded-[12px] border border-slate-200 bg-white px-3 shadow-soft">
-            <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-[8px] bg-brand-green/10 text-brand-green">
+          <div className="absolute right-[12px] top-[-4px] flex h-[40px] w-[140px] items-center gap-2 rounded-[8px] border border-slate-200 bg-white px-2 shadow-soft sm:right-[20px] sm:top-[-6px] sm:h-[48px] sm:w-[164px] sm:gap-2.5 sm:rounded-[10px] sm:px-2.5 lg:right-[25px] lg:top-[-8px] lg:h-[56px] lg:w-[184px] lg:gap-2.5 lg:rounded-[12px] lg:px-3">
+            <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-[6px] bg-brand-green/10 text-brand-green sm:h-7 sm:w-7 sm:rounded-[7px] lg:h-8 lg:w-8 lg:rounded-[8px]">
               <QrCodeExactIcon aria-hidden="true" />
             </span>
             <div>
-              <p className="text-[13px] font-semibold leading-none text-brand-navy">
+              <p className="text-[10px] font-semibold leading-none text-brand-navy sm:text-[11px] lg:text-[13px]">
                 Scan QR Code
               </p>
-              <p className="mt-1 text-[10px] leading-none text-slate-400">
+              <p className="mt-0.5 text-[7px] leading-none text-slate-400 sm:mt-1 sm:text-[8px] lg:text-[10px]">
                 Débloquer une carte
               </p>
             </div>
           </div>
 
-          <div className="absolute bottom-[38px] left-[60px] z-20 flex h-[56px] w-[184px] items-center gap-2.5 rounded-[12px] border border-slate-200 bg-white px-3 shadow-soft">
-            <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-[8px] bg-brand-red/10 text-brand-red">
-              <Gift size={15} aria-hidden="true" />
+          <div className="absolute bottom-[22px] left-[36px] z-20 flex h-[40px] w-[140px] items-center gap-2 rounded-[8px] border border-slate-200 bg-white px-2 shadow-soft sm:bottom-[30px] sm:left-[48px] sm:h-[48px] sm:w-[164px] sm:gap-2.5 sm:rounded-[10px] sm:px-2.5 lg:bottom-[38px] lg:left-[60px] lg:h-[56px] lg:w-[184px] lg:gap-2.5 lg:rounded-[12px] lg:px-3">
+            <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-[6px] bg-brand-red/10 text-brand-red sm:h-7 sm:w-7 sm:rounded-[7px] lg:h-8 lg:w-8 lg:rounded-[8px]">
+              <Gift size={12} aria-hidden="true" className="sm:size-[13px] lg:size-[15px]" />
             </span>
             <div>
-              <p className="text-[13px] font-semibold leading-none text-brand-navy">
+              <p className="text-[10px] font-semibold leading-none text-brand-navy sm:text-[11px] lg:text-[13px]">
                 Récompense
               </p>
-              <p className="mt-1 text-[10px] leading-none text-slate-400">
+              <p className="mt-0.5 text-[7px] leading-none text-slate-400 sm:mt-1 sm:text-[8px] lg:text-[10px]">
                 Tirage hebdomadaire
               </p>
             </div>

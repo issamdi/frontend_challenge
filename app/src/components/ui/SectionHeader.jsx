@@ -41,7 +41,7 @@ export default function SectionHeader({
 
       {subtitle && (
         <p
-          className={`mt-3 text-[18px] sm:text-[22px] lg:text-[26px] ${subtitleClassName}`}
+          className={`mx-auto mt-3 max-w-[720px] text-[18px] sm:text-[22px] ${subtitleClassName}`}
         >
           {subtitle}
         </p>

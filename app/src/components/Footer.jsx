@@ -41,9 +41,8 @@ export default function Footer() {
                 <span className="text-brand-green">win</span>
               </span>
             </div>
-            <p className="mt-3 max-w-[340px] text-sm leading-relaxed text-slate-600">
-              Plateforme de jeux digitaux pour engager vos communautés autour du
-              football. Un service d'Agency.Africa.
+            <p className="mt-3 max-w-[540px] text-sm text-slate-600">
+              Plateforme de jeux digitaux pour engager vos communautés autour du football. Un service d'Agency.Africa.
             </p>
 
             {/* Social icons */}
