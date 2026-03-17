@@ -122,8 +122,41 @@ export default function PricingSection() {
       className="border-b border-slate-200 bg-[#F8FAFC] py-16 sm:py-20"
     >
       <SectionHeader
-        title="Des formules adaptées à votre échelle"
-        subtitle="Choisissez la solution qui correspond à vos besoins et votre ambition"
+        title={
+          <span
+            style={{
+              fontFamily: "Poppins",
+              fontWeight: 700,
+              fontStyle: "normal",
+              fontSize: "36px",
+              lineHeight: "40px",
+              letterSpacing: "0",
+              textAlign: "center",
+              verticalAlign: "middle",
+              display: "block",
+            }}
+          >
+            Des formules adaptées à votre échelle
+          </span>
+        }
+        subtitle={
+          <span
+            style={{
+              fontFamily: "Poppins",
+              fontWeight: 400,
+              fontStyle: "normal",
+              fontSize: "18px",
+              lineHeight: "28px",
+              letterSpacing: "0",
+              textAlign: "center",
+              verticalAlign: "middle",
+              display: "block",
+            }}
+          >
+            Choisissez la solution qui correspond à vos besoins et votre
+            ambition
+          </span>
+        }
       />
 
       <div className="mt-12 grid gap-8 lg:grid-cols-3">

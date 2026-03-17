@@ -30,8 +30,40 @@ export default function ProcessSection() {
   return (
     <SectionShell className="border-b border-slate-200 bg-white py-16 sm:py-20">
       <SectionHeader
-        title="Un parcours client simple et engageant"
-        subtitle="De l'achat du produit à la récompense, en 5 étapes"
+        title={
+          <span
+            style={{
+              fontFamily: "Poppins",
+              fontWeight: 700,
+              fontStyle: "normal",
+              fontSize: "36px",
+              lineHeight: "40px",
+              letterSpacing: "0",
+              textAlign: "center",
+              verticalAlign: "middle",
+              display: "block",
+            }}
+          >
+            Un parcours client simple et engageant
+          </span>
+        }
+        subtitle={
+          <span
+            style={{
+              fontFamily: "Poppins",
+              fontWeight: 400,
+              fontStyle: "normal",
+              fontSize: "18px",
+              lineHeight: "28px",
+              letterSpacing: "0",
+              textAlign: "center",
+              verticalAlign: "middle",
+              display: "block",
+            }}
+          >
+            De l'achat du produit à la récompense, en 5 étapes
+          </span>
+        }
       />
 
       <div className="mt-12 grid gap-6 md:grid-cols-3 lg:grid-cols-5">

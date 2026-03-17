@@ -100,7 +100,20 @@ export default function AboutSection() {
             Solution complète
           </span>
 
-          <h2 className="mt-3 text-[30px] font-bold leading-[1.12] tracking-[-0.45px] text-brand-navy sm:text-[38px] lg:text-[42px] lg:tracking-[-0.7px]">
+          <h2
+            style={{
+              fontFamily: "Poppins",
+              fontWeight: 700,
+              fontStyle: "normal",
+              fontSize: "36px",
+              lineHeight: "40px",
+              letterSpacing: "0",
+              textAlign: "left",
+              verticalAlign: "middle",
+              display: "block",
+            }}
+            className="mt-3 text-[30px] font-bold leading-[1.12] tracking-[-0.45px] text-brand-navy sm:text-[38px] lg:text-[42px] lg:tracking-[-0.7px]"
+          >
             Le terrain de jeu digital de votre marque
           </h2>
 

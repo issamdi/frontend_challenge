@@ -240,8 +240,25 @@ export default function BackofficeSection() {
             </span>
           }
           title="Gérez tout depuis une interface unique"
-          subtitle="Notre backoffice intuitif vous permet de créer, configurer et piloter vos campagnes en toute autonomie"
-          subtitleClassName="text-slate-500 mx-auto max-w-[640px]"
+          subtitle={
+            <span
+              style={{
+                fontFamily: "Poppins",
+                fontWeight: 400,
+                fontStyle: "normal",
+                fontSize: "18px",
+                lineHeight: "28px",
+                letterSpacing: "0",
+                textAlign: "center",
+                verticalAlign: "middle",
+                display: "block",
+              }}
+            >
+              Notre backoffice intuitif vous permet de créer, configurer et
+              piloter vos campagnes en toute autonomie
+            </span>
+          }
+          subtitleClassName="mx-auto max-w-[640px]"
         />
 
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">

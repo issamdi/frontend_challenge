@@ -55,8 +55,40 @@ export default function CatalogSection() {
       className="border-b border-slate-200 bg-[#F8FAFC] py-16 sm:py-20"
     >
       <SectionHeader
-        title="Catalogue de jeux"
-        subtitle="Des mécaniques éprouvées pour engager vos audiences"
+        title={
+          <span
+            style={{
+              fontFamily: "Poppins",
+              fontWeight: 700,
+              fontStyle: "normal",
+              fontSize: "36px",
+              lineHeight: "40px",
+              letterSpacing: "0",
+              textAlign: "center",
+              verticalAlign: "middle",
+              display: "block",
+            }}
+          >
+            Catalogue de jeux
+          </span>
+        }
+        subtitle={
+          <span
+            style={{
+              fontFamily: "Poppins",
+              fontWeight: 400,
+              fontStyle: "normal",
+              fontSize: "18px",
+              lineHeight: "28px",
+              letterSpacing: "0",
+              textAlign: "center",
+              verticalAlign: "middle",
+              display: "block",
+            }}
+          >
+            Des mécaniques éprouvées pour engager vos audiences
+          </span>
+        }
       />
 
       <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">

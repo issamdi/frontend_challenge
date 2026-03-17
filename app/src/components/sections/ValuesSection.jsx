@@ -23,10 +23,37 @@ export default function ValuesSection() {
   return (
     <SectionShell className="border-b border-slate-200 bg-gradient-to-r from-brand-green to-brand-green-dark py-16 sm:py-20">
       <div className="text-center">
-        <h2 className="text-[30px] font-bold tracking-[-0.45px] text-white sm:text-[36px] md:whitespace-nowrap lg:text-[40px] lg:tracking-[-0.65px]">
+        <h2
+          style={{
+            fontFamily: "Poppins",
+            fontWeight: 700,
+            fontStyle: "normal",
+            fontSize: "36px",
+            lineHeight: "40px",
+            letterSpacing: "0",
+            textAlign: "center",
+            verticalAlign: "middle",
+            display: "block",
+          }}
+          className="text-[30px] font-bold tracking-[-0.45px] text-white sm:text-[36px] md:whitespace-nowrap lg:text-[40px] lg:tracking-[-0.65px]"
+        >
           Transformez vos ventes en expérience mémorable
         </h2>
-        <p className="mx-auto mt-3 max-w-[720px] text-[18px] text-green-50 sm:text-[22px]">
+        <p
+          style={{
+            fontFamily: "Poppins",
+            fontWeight: 400,
+            fontStyle: "normal",
+            fontSize: "18px",
+            lineHeight: "28px",
+            letterSpacing: "0",
+            textAlign: "center",
+            verticalAlign: "middle",
+            display: "block",
+            color: "#F0FDF4",
+          }}
+          className="mx-auto mt-3 max-w-[720px]"
+        >
           YouCanWin offre à vos clients plus qu'un produit : une expérience
           interactive complète autour du football
         </p>
