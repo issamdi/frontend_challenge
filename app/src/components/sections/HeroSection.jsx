@@ -1,4 +1,4 @@
-﻿import { heroStats, trustBrands } from "../../data/constants";
+import { heroStats, trustBrands } from "../../data/constants";
 import { ChevronRight, Gift } from "lucide-react";
 import QrCodeExactIcon from "../icons/QrCodeExactIcon";
 
@@ -43,7 +43,7 @@ export default function HeroSection() {
           </p>
 
           {/* Stats row */}
-          <div className="mt-8 grid grid-cols-3 gap-4 sm:gap-8">
+          <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-8">
             {heroStats.map(({ value, label, color }) => (
               <div key={value}>
                 <p
