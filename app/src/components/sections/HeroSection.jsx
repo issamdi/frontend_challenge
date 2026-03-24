@@ -101,7 +101,7 @@ export default function HeroSection() {
         </div>
 
         {/* Right — phone mockup */}
-        <div className="mx-auto flex h-[500px] w-full max-w-[392px] items-start justify-center sm:h-[640px] lg:h-[760px] lg:max-w-[608px] lg:justify-start lg:pl-10 lg:pt-2">
+        <div className="mx-auto flex h-[500px] w-full max-w-[392px] items-start justify-center sm:h-[640px] lg:h-[760px] lg:max-w-[608px] lg:justify-center lg:pt-2">
           {/* Tightly fitted relative wrapper directly matching phone dimensions */}
           <div className="relative h-[424px] w-[235px] sm:h-[560px] sm:w-[312px] lg:h-[704px] lg:w-[392px]">
             
